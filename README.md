@@ -1,10 +1,10 @@
 # 🌐 Casper Free Proxies
 
-> **Free HTTP, SOCKS4 & SOCKS5 proxies — auto-scraped, validated and updated every 30 minutes.**  
+> **Free HTTP, SOCKS4 & SOCKS5 proxies — automatically validated and updated every 30 minutes.**  
 > No API keys. No rate limits. Just raw, tested proxies.
 
-[![Proxies Updated](https://img.shields.io/badge/Updated-Every%2030%20min-brightgreen?style=flat-square)](https://github.com/Casper-Tech-ke/casper-free-proxies)
-[![HTTP Proxies](https://img.shields.io/badge/HTTP-Live-blue?style=flat-square)](https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/http.json)
+[![Updated](https://img.shields.io/badge/Updated-Every%2030%20min-brightgreen?style=flat-square)](https://github.com/Casper-Tech-ke/casper-free-proxies)
+[![HTTP](https://img.shields.io/badge/HTTP-Live-blue?style=flat-square)](https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/http.json)
 [![SOCKS4](https://img.shields.io/badge/SOCKS4-Live-orange?style=flat-square)](https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/socks4.json)
 [![SOCKS5](https://img.shields.io/badge/SOCKS5-Live-purple?style=flat-square)](https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/socks5.json)
 [![Made in Kenya](https://img.shields.io/badge/Made%20in-Kenya%20🇰🇪-red?style=flat-square)](https://xcasper.space)
@@ -19,7 +19,6 @@
 - [File Formats](#-file-formats)
 - [REST API](#-rest-api)
 - [Usage Examples](#-usage-examples)
-- [Proxy Sources](#-proxy-sources)
 - [About](#-about)
 
 ---
@@ -30,12 +29,12 @@
 ┌─────────────────────────────────────────────────────────────────┐
 │                     CASPER PROXY ENGINE                         │
 │                                                                 │
-│  1. SCRAPE  →  Collect raw proxies from 4+ public sources       │
-│  2. TEST    →  Validate each proxy (response time + liveness)   │
-│  3. FILTER  →  Keep only working proxies, sorted by speed       │
-│  4. PUBLISH →  Push clean JSON files to this GitHub repo        │
+│  1. COLLECT  →  Gather raw proxies from multiple sources        │
+│  2. TEST     →  Validate each proxy (response time + liveness)  │
+│  3. FILTER   →  Keep only working proxies                       │
+│  4. PUBLISH  →  Push clean JSON files to this GitHub repo       │
 │                                                                 │
-│  ⏱  Runs automatically every 30 minutes via cron               │
+│  ⏱  Runs automatically every 30 minutes                        │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -128,33 +127,33 @@ https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/
 
 ## 🔌 REST API
 
-A live HTTP API is also available at:
+A live HTTP API is available at:
 
 ```
-http://95.111.247.5:7070
+https://proxies.xcasper.space
 ```
 
-| Endpoint       | Description                              |
-|---------------|------------------------------------------|
-| `GET /`       | API info, stats and endpoint list        |
-| `GET /proxies`| All working proxies (combined)           |
-| `GET /http`   | HTTP proxies only                        |
-| `GET /socks4` | SOCKS4 proxies only                      |
-| `GET /socks5` | SOCKS5 proxies only                      |
-| `GET /random` | 50 random proxies from the current pool  |
-| `GET /metadata`| Full metadata: speed, country, type     |
-| `GET /stats`  | Counts by proxy type                     |
-| `GET /timestamp`| Last update time (UTC)                 |
+| Endpoint        | Description                              |
+|----------------|------------------------------------------|
+| `GET /`        | API info, stats and endpoint list        |
+| `GET /proxies` | All working proxies (combined)           |
+| `GET /http`    | HTTP proxies only                        |
+| `GET /socks4`  | SOCKS4 proxies only                      |
+| `GET /socks5`  | SOCKS5 proxies only                      |
+| `GET /random`  | 50 random proxies from the current pool  |
+| `GET /metadata`| Full metadata: speed, country, type      |
+| `GET /stats`   | Counts by proxy type                     |
+| `GET /timestamp`| Last update time (UTC)                  |
 
 ### Example Response (`GET /stats`)
 ```json
 {
   "provider": "CASPER TECH KENYA",
   "last_updated": "2026-04-04T10:30:00.000Z",
-  "http": 142,
-  "socks4": 67,
-  "socks5": 48,
-  "total": 257
+  "http": 324,
+  "socks4": 66,
+  "socks5": 0,
+  "total": 390
 }
 ```
 
@@ -238,21 +237,6 @@ curl_setopt($ch, CURLOPT_TIMEOUT, 8);
 $result = curl_exec($ch);
 echo $result;
 ```
-
----
-
-## 🌍 Proxy Sources
-
-Proxies are collected from the following public sources on each run:
-
-| Source | Type | Notes |
-|--------|------|-------|
-| [ProxyScrape](https://proxyscrape.com) | HTTP, SOCKS4, SOCKS5 | API-based, 300 per type |
-| [GeoNode](https://geonode.com) | HTTP, SOCKS4, SOCKS5 | API-based, 3 pages × 500 |
-| [free-proxy-list.net](https://free-proxy-list.net) | HTTP | HTML scrape, 4 sites |
-| [ProxyNova](https://proxynova.com) | HTTP | HTML scrape, 12 countries |
-
-All collected proxies are validated before being published. Only proxies that successfully connect and respond within **5 seconds** are kept.
 
 ---
 
