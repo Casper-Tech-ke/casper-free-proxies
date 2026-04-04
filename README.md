@@ -19,6 +19,7 @@
 - [File Formats](#-file-formats)
 - [REST API](#-rest-api)
 - [Usage Examples](#-usage-examples)
+- [Legal](#-legal)
 - [About](#-about)
 
 ---
@@ -133,17 +134,17 @@ A live HTTP API is available at:
 https://proxies.xcasper.space
 ```
 
-| Endpoint        | Description                              |
-|----------------|------------------------------------------|
-| `GET /`        | API info, stats and endpoint list        |
-| `GET /proxies` | All working proxies (combined)           |
-| `GET /http`    | HTTP proxies only                        |
-| `GET /socks4`  | SOCKS4 proxies only                      |
-| `GET /socks5`  | SOCKS5 proxies only                      |
-| `GET /random`  | 50 random proxies from the current pool  |
-| `GET /metadata`| Full metadata: speed, country, type      |
-| `GET /stats`   | Counts by proxy type                     |
-| `GET /timestamp`| Last update time (UTC)                  |
+| Endpoint         | Description                              |
+|-----------------|------------------------------------------|
+| `GET /`         | API info, stats and endpoint list        |
+| `GET /proxies`  | All working proxies (combined)           |
+| `GET /http`     | HTTP proxies only                        |
+| `GET /socks4`   | SOCKS4 proxies only                      |
+| `GET /socks5`   | SOCKS5 proxies only                      |
+| `GET /random`   | 50 random proxies from the current pool  |
+| `GET /metadata` | Full metadata: speed, country, type      |
+| `GET /stats`    | Counts by proxy type                     |
+| `GET /timestamp`| Last update time (UTC)                   |
 
 ### Example Response (`GET /stats`)
 ```json
@@ -179,64 +180,62 @@ console.log(await data.json());
 
 ### Python
 ```python
-import requests
-import random
+import requests, random
 
-# Fetch proxies
 r = requests.get('https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/http.json')
 proxies_list = r.json()['proxies']
-
-# Pick one randomly
 proxy = random.choice(proxies_list)
 
-# Use it
 proxies = {'http': f'http://{proxy}', 'https': f'http://{proxy}'}
 response = requests.get('https://api.ipify.org?format=json', proxies=proxies, timeout=8)
 print(response.json())
 ```
 
-### Python (with metadata — pick fastest)
+### Python — pick fastest from metadata
 ```python
 import requests
 
-r = requests.get('https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/metadata.json')
-meta = r.json()
-
-# Sort by response time, pick top 5 HTTP proxies
-http_proxies = [
-    (k, v) for k, v in meta.items()
-    if v['type'] == 'http' and v['response_time'] is not None
-]
+meta = requests.get('https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/metadata.json').json()
+http_proxies = [(k, v) for k, v in meta.items() if v['type'] == 'http' and v['response_time']]
 http_proxies.sort(key=lambda x: x[1]['response_time'])
-fastest = http_proxies[:5]
 
-for proxy, info in fastest:
-    print(f"{proxy} — {info['response_time']}s — {info['country']}")
+for proxy, info in http_proxies[:5]:
+    print(f"{proxy}  {info['response_time']}s  {info['country']}")
 ```
 
 ### cURL
 ```bash
-# Get all HTTP proxies
 curl https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/http.json
-
-# Test a proxy directly
 curl --proxy http://41.65.67.165:1976 https://api.ipify.org
 ```
 
 ### PHP
 ```php
-$url = 'https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/http.json';
-$data = json_decode(file_get_contents($url), true);
-$proxies = $data['proxies'];
-$proxy = $proxies[array_rand($proxies)];
+$data = json_decode(file_get_contents(
+    'https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/http.json'
+), true);
+$proxy = $data['proxies'][array_rand($data['proxies'])];
 
 $ch = curl_init('https://api.ipify.org?format=json');
 curl_setopt($ch, CURLOPT_PROXY, "http://$proxy");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_TIMEOUT, 8);
-$result = curl_exec($ch);
-echo $result;
+echo curl_exec($ch);
 ```
+
+---
+
+## ⚖️ Legal
+
+| Document | Description |
+|----------|-------------|
+| [📜 Terms of Service](TERMS.md) | Rules governing use of this project and API |
+| [🔐 Privacy Policy](PRIVACY.md) | What data we collect and how it is handled |
+| [⚠️ Disclaimer](DISCLAIMER.md) | Important notices about proxy safety and liability |
+| [📄 License](LICENSE) | MIT — free to use with no restrictions |
+| [🤝 Contributing](CONTRIBUTING.md) | How to report issues and contribute |
+
+> **TL;DR** — Use freely, use lawfully, use at your own risk. We are not responsible for what third-party proxy operators do with your traffic.
 
 ---
 
@@ -253,4 +252,10 @@ echo $result;
 
 ---
 
-> *"No API Keys. No Rate Limits. Just working proxies."*
+<div align="center">
+
+*"No API Keys. No Rate Limits. Just working proxies."*
+
+[Terms](TERMS.md) · [Privacy](PRIVACY.md) · [Disclaimer](DISCLAIMER.md) · [License](LICENSE) · [Contributing](CONTRIBUTING.md)
+
+</div>
