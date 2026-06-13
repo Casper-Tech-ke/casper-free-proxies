@@ -1,1484 +1,290 @@
 {
-  "185.70.105.176:2080": {
-    "type": "http",
-    "response_time": 2.199,
-    "country": "RU",
-    "anonymity": "elite"
-  },
-  "220.197.44.36:3128": {
-    "type": "http",
-    "response_time": 3.493,
-    "country": "CN",
-    "anonymity": "transparent"
-  },
-  "101.71.143.237:8092": {
-    "type": "http",
-    "response_time": 0.757,
-    "country": "CN",
-    "anonymity": "elite"
-  },
-  "45.5.119.17:999": {
-    "type": "http",
-    "response_time": 4.086,
-    "country": "GT",
-    "anonymity": "transparent"
-  },
-  "172.200.72.48:80": {
-    "type": "http",
-    "response_time": 0.628,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "138.121.113.179:999": {
-    "type": "http",
-    "response_time": 4.018,
-    "country": "AR",
-    "anonymity": "transparent"
-  },
-  "45.230.171.0:999": {
-    "type": "http",
-    "response_time": 3.296,
-    "country": "VE",
-    "anonymity": "transparent"
-  },
-  "31.129.43.112:1234": {
-    "type": "http",
-    "response_time": 2.746,
-    "country": "RU",
-    "anonymity": "elite"
-  },
-  "102.164.252.150:8080": {
-    "type": "http",
-    "response_time": 1.398,
-    "country": "GQ",
-    "anonymity": "transparent"
-  },
-  "8.211.49.86:5007": {
-    "type": "http",
-    "response_time": 4.478,
-    "country": "DE",
-    "anonymity": "elite"
-  },
-  "72.56.125.127:444": {
-    "type": "socks5",
-    "response_time": 1.126,
-    "country": "NL",
-    "anonymity": "elite"
-  },
-  "174.64.199.82:4145": {
-    "type": "socks5",
-    "response_time": 1.418,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "173.249.20.169:9060": {
-    "type": "socks5",
-    "response_time": 4.586,
-    "country": "FR",
-    "anonymity": "elite"
-  },
-  "72.37.216.68:4145": {
-    "type": "socks5",
-    "response_time": 1.38,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "142.54.237.34:4145": {
-    "type": "socks5",
-    "response_time": 1.406,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "34.124.190.108:8080": {
-    "type": "socks5",
-    "response_time": 4.128,
-    "country": "SG",
-    "anonymity": "elite"
-  },
-  "142.54.236.97:4145": {
-    "type": "socks5",
-    "response_time": 1.756,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "185.209.29.226:1080": {
-    "type": "socks5",
-    "response_time": 1.45,
-    "country": "RU",
-    "anonymity": "elite"
-  },
-  "101.34.58.64:7014": {
-    "type": "socks5",
-    "response_time": 2.844,
-    "country": "CN",
-    "anonymity": "elite"
-  },
-  "70.166.167.55:57745": {
-    "type": "socks5",
-    "response_time": 1.806,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "185.233.203.60:1080": {
-    "type": "socks5",
-    "response_time": 1.227,
-    "country": "NL",
-    "anonymity": "elite"
-  },
-  "192.252.210.233:4145": {
-    "type": "socks5",
-    "response_time": 1.699,
-    "country": "GB",
-    "anonymity": "elite"
-  },
-  "192.252.211.193:4145": {
-    "type": "socks5",
-    "response_time": 1.7,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.252.208.67:14287": {
-    "type": "socks5",
-    "response_time": 1.714,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "199.102.104.70:4145": {
-    "type": "socks5",
-    "response_time": 1.809,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.181.217.206:4145": {
-    "type": "socks5",
-    "response_time": 1.83,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "98.188.47.132:4145": {
-    "type": "socks4",
-    "response_time": 1.535,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "160.250.54.9:9000": {
-    "type": "socks5",
-    "response_time": 3.797,
-    "country": "VN",
-    "anonymity": "elite"
-  },
-  "169.155.50.87:1080": {
-    "type": "socks5",
-    "response_time": 2.876,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "107.152.98.5:4145": {
-    "type": "socks5",
-    "response_time": 1.825,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "107.181.168.145:4145": {
-    "type": "socks5",
-    "response_time": 1.849,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "37.204.230.182:1080": {
-    "type": "socks5",
-    "response_time": 2.689,
-    "country": "RU",
-    "anonymity": "elite"
-  },
-  "192.252.208.70:14282": {
-    "type": "socks5",
-    "response_time": 1.777,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.252.209.155:14455": {
-    "type": "socks5",
-    "response_time": 1.77,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "185.125.201.149:7443": {
-    "type": "socks5",
-    "response_time": 2.139,
-    "country": "NL",
-    "anonymity": "elite"
-  },
-  "199.58.184.97:4145": {
-    "type": "socks4",
-    "response_time": 1.543,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "72.214.108.67:4145": {
-    "type": "socks5",
-    "response_time": 1.922,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "104.200.135.46:4145": {
-    "type": "socks5",
-    "response_time": 1.87,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "70.166.167.38:57728": {
-    "type": "socks5",
-    "response_time": 1.925,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "37.16.20.163:1080": {
-    "type": "socks5",
-    "response_time": 1.436,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.135.18:18301": {
-    "type": "socks5",
-    "response_time": 1.689,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.178.172.13:15311": {
-    "type": "socks5",
-    "response_time": 1.775,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.178.172.3:4145": {
-    "type": "socks5",
-    "response_time": 1.794,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.181.217.213:4145": {
-    "type": "socks5",
-    "response_time": 1.781,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.170.249.65:4145": {
-    "type": "socks5",
-    "response_time": 2.665,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.181.217.210:4145": {
-    "type": "socks4",
-    "response_time": 1.381,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.178.172.14:4145": {
-    "type": "socks4",
-    "response_time": 1.365,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.137.35:4145": {
-    "type": "socks5",
-    "response_time": 1.545,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.139.163:19404": {
-    "type": "socks5",
-    "response_time": 1.571,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.129.150:4145": {
-    "type": "socks5",
-    "response_time": 1.901,
-    "country": "US",
-    "anonymity": "elite"
-  },
   "192.111.135.17:18302": {
-    "type": "socks5",
-    "response_time": 1.547,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.178.172.11:4145": {
-    "type": "socks5",
-    "response_time": 1.628,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "174.77.111.198:49547": {
-    "type": "socks5",
-    "response_time": 2.644,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "67.201.35.145:4145": {
     "type": "socks4",
-    "response_time": 2.264,
+    "response_time": 4.183,
     "country": "US",
     "anonymity": "elite"
   },
-  "68.71.251.134:4145": {
-    "type": "socks5",
-    "response_time": 2.61,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.137.37:18762": {
+  "72.195.34.42:4145": {
     "type": "socks4",
-    "response_time": 1.237,
+    "response_time": 4.319,
     "country": "US",
     "anonymity": "elite"
   },
-  "206.220.175.2:4145": {
-    "type": "socks4",
-    "response_time": 1.264,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "68.71.240.210:4145": {
-    "type": "socks5",
-    "response_time": 2.628,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "47.79.79.35:10808": {
-    "type": "socks5",
-    "response_time": 1.235,
-    "country": "HK",
-    "anonymity": "elite"
-  },
-  "184.170.251.30:11288": {
-    "type": "socks4",
-    "response_time": 2.234,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.139.162:4145": {
-    "type": "socks5",
-    "response_time": 1.419,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.129.145:16894": {
-    "type": "socks5",
-    "response_time": 1.415,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.111.130.5:17002": {
-    "type": "socks5",
-    "response_time": 1.434,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "192.252.214.17:4145": {
-    "type": "socks5",
-    "response_time": 1.439,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.181.178.33:4145": {
-    "type": "socks5",
-    "response_time": 1.551,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "142.54.237.38:4145": {
-    "type": "socks5",
-    "response_time": 1.387,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "142.54.229.249:4145": {
-    "type": "socks5",
-    "response_time": 1.418,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "24.249.199.4:4145": {
-    "type": "socks4",
-    "response_time": 2.133,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "41.216.188.132:9050": {
-    "type": "socks4",
-    "response_time": 4.192,
-    "country": "DE",
-    "anonymity": "elite"
-  },
-  "192.111.137.34:18765": {
-    "type": "socks4",
-    "response_time": 1.082,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "47.89.184.18:3128": {
+  "80.74.54.148:3128": {
     "type": "http",
-    "response_time": 0.785,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "184.170.245.148:4145": {
-    "type": "socks4",
-    "response_time": 2.123,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "8.213.151.128:3128": {
-    "type": "http",
-    "response_time": 1.208,
-    "country": "KR",
-    "anonymity": "elite"
-  },
-  "202.166.219.80:4153": {
-    "type": "socks4",
-    "response_time": 2.548,
-    "country": "NP",
-    "anonymity": "elite"
-  },
-  "188.168.51.56:1080": {
-    "type": "socks5",
-    "response_time": 2.29,
-    "country": "RU",
-    "anonymity": "elite"
-  },
-  "92.101.193.58:1080": {
-    "type": "socks5",
-    "response_time": 2.624,
-    "country": "RU",
-    "anonymity": "elite"
-  },
-  "4.221.164.109:443": {
-    "type": "http",
-    "response_time": 1.781,
-    "country": "South Africa",
-    "anonymity": "elite proxy"
+    "response_time": 4.418,
+    "country": "Germany",
+    "anonymity": "anonymous"
   },
   "139.99.237.62:80": {
     "type": "http",
-    "response_time": 0.748,
+    "response_time": 4.203,
     "country": "Australia",
     "anonymity": "anonymous"
   },
   "78.17.28.119:443": {
     "type": "http",
-    "response_time": 0.673,
+    "response_time": 0.683,
     "country": "Finland",
     "anonymity": "elite proxy"
   },
-  "64.188.31.14:10808": {
+  "92.205.186.129:1080": {
     "type": "http",
-    "response_time": 1.127,
-    "country": "United States",
+    "response_time": 4.224,
+    "country": "France",
     "anonymity": "elite proxy"
-  },
-  "190.58.248.86:80": {
-    "type": "http",
-    "response_time": 2.195,
-    "country": "Trinidad and Tobago",
-    "anonymity": "anonymous"
-  },
-  "203.99.240.182:80": {
-    "type": "http",
-    "response_time": 2.421,
-    "country": "Japan",
-    "anonymity": "anonymous"
-  },
-  "89.125.68.33:10000": {
-    "type": "http",
-    "response_time": 3.435,
-    "country": "Germany",
-    "anonymity": "elite proxy"
-  },
-  "47.245.117.43:80": {
-    "type": "http",
-    "response_time": 1.526,
-    "country": "Singapore",
-    "anonymity": "anonymous"
-  },
-  "185.11.134.227:8443": {
-    "type": "http",
-    "response_time": 1.869,
-    "country": "Russian Federation",
-    "anonymity": "elite proxy"
-  },
-  "84.47.150.125:1080": {
-    "type": "http",
-    "response_time": 4.681,
-    "country": "Russian Federation",
-    "anonymity": "elite proxy"
-  },
-  "47.79.119.13:8080": {
-    "type": "http",
-    "response_time": 1.653,
-    "country": "Singapore",
-    "anonymity": "elite proxy"
-  },
-  "194.102.38.65:80": {
-    "type": "http",
-    "response_time": 1.637,
-    "country": "United Kingdom",
-    "anonymity": "anonymous"
-  },
-  "213.33.126.130:80": {
-    "type": "http",
-    "response_time": 1.841,
-    "country": "Austria",
-    "anonymity": "anonymous"
-  },
-  "104.154.186.48:80": {
-    "type": "http",
-    "response_time": 1.925,
-    "country": "United States",
-    "anonymity": "anonymous"
-  },
-  "34.44.49.215:80": {
-    "type": "http",
-    "response_time": 1.601,
-    "country": "United States",
-    "anonymity": "elite proxy"
-  },
-  "164.92.165.209:18080": {
-    "type": "http",
-    "response_time": 2.426,
-    "country": "Germany",
-    "anonymity": "elite proxy"
-  },
-  "0.0.0.0:80": {
-    "type": "http",
-    "response_time": 0.068,
-    "country": "Unknown",
-    "anonymity": "anonymous"
-  },
-  "127.0.0.7:80": {
-    "type": "http",
-    "response_time": 0.066,
-    "country": "Unknown",
-    "anonymity": "anonymous"
-  },
-  "159.223.87.50:443": {
-    "type": "http",
-    "response_time": 1.632,
-    "country": "Singapore",
-    "anonymity": "elite proxy"
-  },
-  "70.35.196.194:8081": {
-    "type": "http",
-    "response_time": 3.004,
-    "country": "United States",
-    "anonymity": "elite proxy"
-  },
-  "27.254.99.183:8118": {
-    "type": "http",
-    "response_time": 2.073,
-    "country": "Thailand",
-    "anonymity": "elite proxy"
-  },
-  "80.74.54.148:3128": {
-    "type": "http",
-    "response_time": 4.69,
-    "country": "Germany",
-    "anonymity": "anonymous"
-  },
-  "67.227.36.176:6218": {
-    "type": "http",
-    "response_time": 0.842,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "104.232.209.153:6111": {
-    "type": "http",
-    "response_time": 0.845,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "154.29.235.196:6537": {
-    "type": "http",
-    "response_time": 0.694,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "191.101.41.233:6305": {
-    "type": "http",
-    "response_time": 0.862,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.27.208.229:5939": {
-    "type": "http",
-    "response_time": 0.698,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "89.249.195.253:7008": {
-    "type": "http",
-    "response_time": 0.959,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "45.135.139.159:6462": {
-    "type": "http",
-    "response_time": 0.529,
-    "country": "United Kingdom",
-    "anonymity": "transparent"
-  },
-  "172.245.158.226:6179": {
-    "type": "http",
-    "response_time": 0.807,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "107.175.119.227:6755": {
-    "type": "http",
-    "response_time": 0.886,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "107.174.25.154:5608": {
-    "type": "http",
-    "response_time": 0.802,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "38.154.224.115:6656": {
-    "type": "http",
-    "response_time": 0.715,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "45.61.124.195:6524": {
-    "type": "http",
-    "response_time": 0.845,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "82.22.211.64:5872": {
-    "type": "http",
-    "response_time": 0.665,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "184.174.126.158:6450": {
-    "type": "http",
-    "response_time": 0.79,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "192.3.48.37:6030": {
-    "type": "http",
-    "response_time": 0.889,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "191.101.41.114:6186": {
-    "type": "http",
-    "response_time": 0.852,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "45.41.176.127:6425": {
-    "type": "http",
-    "response_time": 0.87,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "154.6.128.116:6086": {
-    "type": "http",
-    "response_time": 0.708,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "82.23.203.89:5397": {
-    "type": "http",
-    "response_time": 0.656,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "216.74.114.91:6374": {
-    "type": "http",
-    "response_time": 0.89,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "188.215.5.53:5083": {
-    "type": "http",
-    "response_time": 0.965,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "173.239.237.47:5693": {
-    "type": "http",
-    "response_time": 0.755,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "162.220.246.139:6423": {
-    "type": "http",
-    "response_time": 0.468,
-    "country": "United Kingdom",
-    "anonymity": "transparent"
-  },
-  "107.174.194.48:5490": {
-    "type": "http",
-    "response_time": 0.784,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "82.26.238.197:6504": {
-    "type": "http",
-    "response_time": 0.645,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "46.202.78.153:8415": {
-    "type": "http",
-    "response_time": 0.752,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "64.64.118.130:6713": {
-    "type": "http",
-    "response_time": 0.682,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "45.61.124.155:6484": {
-    "type": "http",
-    "response_time": 0.825,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "38.154.194.86:9499": {
-    "type": "http",
-    "response_time": 0.719,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "98.159.38.215:6515": {
-    "type": "http",
-    "response_time": 0.677,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "38.154.193.151:5424": {
-    "type": "http",
-    "response_time": 0.711,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "192.198.126.137:7180": {
-    "type": "http",
-    "response_time": 1,
-    "country": "Canada",
-    "anonymity": "transparent"
-  },
-  "166.88.58.201:5926": {
-    "type": "http",
-    "response_time": 0.857,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "142.147.240.252:6774": {
-    "type": "http",
-    "response_time": 0.74,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "216.74.118.88:6243": {
-    "type": "http",
-    "response_time": 0.847,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "45.56.174.72:6325": {
-    "type": "http",
-    "response_time": 0.807,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "216.74.115.243:6837": {
-    "type": "http",
-    "response_time": 0.873,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "107.175.208.132:6073": {
-    "type": "http",
-    "response_time": 0.882,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "31.57.85.223:5909": {
-    "type": "http",
-    "response_time": 0.978,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "147.124.198.212:6071": {
-    "type": "http",
-    "response_time": 0.629,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "154.6.87.200:6670": {
-    "type": "http",
-    "response_time": 0.682,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "45.56.175.129:5803": {
-    "type": "http",
-    "response_time": 0.801,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "82.26.208.80:5387": {
-    "type": "http",
-    "response_time": 0.622,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.26.94.220:6202": {
-    "type": "http",
-    "response_time": 0.852,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "184.174.46.236:5865": {
-    "type": "http",
-    "response_time": 0.785,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "104.238.37.102:6659": {
-    "type": "http",
-    "response_time": 0.841,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "86.38.236.15:6299": {
-    "type": "http",
-    "response_time": 0.445,
-    "country": "Lithuania",
-    "anonymity": "transparent"
-  },
-  "38.154.233.214:5624": {
-    "type": "http",
-    "response_time": 0.672,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "198.46.161.198:5248": {
-    "type": "http",
-    "response_time": 0.85,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "31.57.41.50:5626": {
-    "type": "http",
-    "response_time": 0.675,
-    "country": "Canada",
-    "anonymity": "transparent"
-  },
-  "192.241.104.60:8154": {
-    "type": "http",
-    "response_time": 0.827,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "67.227.42.98:6075": {
-    "type": "http",
-    "response_time": 0.84,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "84.46.204.42:6345": {
-    "type": "http",
-    "response_time": 0.462,
-    "country": "Lithuania",
-    "anonymity": "transparent"
-  },
-  "45.61.124.97:6426": {
-    "type": "http",
-    "response_time": 0.728,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "212.42.199.84:5823": {
-    "type": "http",
-    "response_time": 0.817,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "45.61.116.247:6925": {
-    "type": "http",
-    "response_time": 0.791,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "154.6.59.152:6620": {
-    "type": "http",
-    "response_time": 0.585,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.229.126.114:7643": {
-    "type": "http",
-    "response_time": 0.875,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "184.174.126.69:6361": {
-    "type": "http",
-    "response_time": 0.729,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "166.88.238.253:6233": {
-    "type": "http",
-    "response_time": 0.829,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "104.239.13.167:6796": {
-    "type": "http",
-    "response_time": 0.761,
-    "country": "Canada",
-    "anonymity": "transparent"
-  },
-  "31.57.42.45:6315": {
-    "type": "http",
-    "response_time": 0.647,
-    "country": "Canada",
-    "anonymity": "transparent"
-  },
-  "23.236.255.254:7030": {
-    "type": "http",
-    "response_time": 0.841,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "172.245.7.197:5250": {
-    "type": "http",
-    "response_time": 0.815,
-    "country": "United States",
-    "anonymity": "transparent"
   },
   "95.140.154.156:1080": {
     "type": "http",
-    "response_time": 1.001,
+    "response_time": 0.938,
     "country": "Russian Federation",
     "anonymity": "elite proxy"
   },
   "82.97.247.37:80": {
     "type": "http",
-    "response_time": 0.669,
+    "response_time": 0.674,
     "country": "Australia",
     "anonymity": "elite proxy"
   },
-  "23.27.196.119:6488": {
+  "151.243.180.211:2080": {
     "type": "http",
-    "response_time": 0.701,
+    "response_time": 0.934,
+    "country": "United Arab Emirates",
+    "anonymity": "elite proxy"
+  },
+  "104.154.186.48:80": {
+    "type": "http",
+    "response_time": 0.967,
     "country": "United States",
-    "anonymity": "transparent"
+    "anonymity": "anonymous"
   },
-  "154.6.23.191:6658": {
+  "92.118.112.32:1082": {
     "type": "http",
-    "response_time": 0.639,
-    "country": "Panama",
-    "anonymity": "transparent"
-  },
-  "198.89.123.175:6717": {
-    "type": "http",
-    "response_time": 0.841,
+    "response_time": 0.834,
     "country": "United States",
-    "anonymity": "transparent"
+    "anonymity": "elite proxy"
   },
-  "172.120.112.134:5813": {
+  "85.192.28.65:7443": {
     "type": "http",
-    "response_time": 0.898,
+    "response_time": 0.691,
+    "country": "Germany",
+    "anonymity": "elite proxy"
+  },
+  "49.12.219.42:8000": {
+    "type": "http",
+    "response_time": 0.641,
+    "country": "Germany",
+    "anonymity": "elite proxy"
+  },
+  "143.42.66.91:80": {
+    "type": "http",
+    "response_time": 1.526,
+    "country": "Singapore",
+    "anonymity": "anonymous"
+  },
+  "159.223.87.50:443": {
+    "type": "http",
+    "response_time": 0.771,
+    "country": "Singapore",
+    "anonymity": "elite proxy"
+  },
+  "84.47.150.125:1080": {
+    "type": "http",
+    "response_time": 0.756,
+    "country": "Russian Federation",
+    "anonymity": "elite proxy"
+  },
+  "52.188.28.218:3128": {
+    "type": "http",
+    "response_time": 0.523,
     "country": "United States",
-    "anonymity": "transparent"
+    "anonymity": "anonymous"
   },
-  "198.46.137.27:6231": {
+  "81.181.104.227:80": {
     "type": "http",
-    "response_time": 0.862,
+    "response_time": 0.602,
+    "country": "Poland",
+    "anonymity": "anonymous"
+  },
+  "47.79.119.13:8080": {
+    "type": "http",
+    "response_time": 0.585,
+    "country": "Singapore",
+    "anonymity": "elite proxy"
+  },
+  "34.44.49.215:80": {
+    "type": "http",
+    "response_time": 0.541,
     "country": "United States",
-    "anonymity": "transparent"
+    "anonymity": "elite proxy"
   },
-  "104.143.226.223:5826": {
+  "138.197.68.35:4857": {
     "type": "http",
-    "response_time": 0.452,
-    "country": "United Kingdom",
-    "anonymity": "transparent"
-  },
-  "82.22.211.184:5992": {
-    "type": "http",
-    "response_time": 0.71,
+    "response_time": 0.788,
     "country": "United States",
-    "anonymity": "transparent"
+    "anonymity": "anonymous"
   },
-  "45.61.116.18:6696": {
+  "176.61.151.123:80": {
     "type": "http",
-    "response_time": 0.779,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 2.609,
+    "country": "Portugal",
+    "anonymity": "elite proxy"
   },
-  "166.88.235.214:5842": {
+  "89.127.207.174:18080": {
     "type": "http",
-    "response_time": 0.838,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 0.881,
+    "country": "Sweden",
+    "anonymity": "elite proxy"
   },
-  "173.214.176.206:6177": {
+  "109.238.92.197:3389": {
     "type": "http",
-    "response_time": 0.838,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 0.969,
+    "country": "Russian Federation",
+    "anonymity": "elite proxy"
   },
-  "104.232.211.185:5798": {
+  "13.114.160.78:80": {
     "type": "http",
-    "response_time": 0.855,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 2.497,
+    "country": "Japan",
+    "anonymity": "elite proxy"
   },
-  "23.27.209.24:6043": {
+  "34.43.46.91:80": {
     "type": "http",
-    "response_time": 0.699,
+    "response_time": 0.897,
     "country": "United States",
-    "anonymity": "transparent"
+    "anonymity": "elite proxy"
   },
-  "206.206.119.189:6100": {
+  "65.108.159.129:8081": {
     "type": "http",
-    "response_time": 0.886,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "206.206.69.22:6286": {
-    "type": "http",
-    "response_time": 0.801,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 0.434,
+    "country": "Finland",
+    "anonymity": "elite proxy"
   },
   "116.203.139.209:5678": {
     "type": "http",
-    "response_time": 0.401,
+    "response_time": 0.378,
     "country": "Germany",
     "anonymity": "elite proxy"
-  },
-  "149.104.68.53:1080": {
-    "type": "http",
-    "response_time": 2.935,
-    "country": "United States",
-    "anonymity": "anonymous"
   },
   "194.87.55.194:2053": {
     "type": "http",
-    "response_time": 1.26,
+    "response_time": 1.571,
     "country": "Germany",
     "anonymity": "elite proxy"
   },
-  "103.47.52.148:8190": {
+  "89.125.68.33:10000": {
     "type": "http",
-    "response_time": 0.777,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 0.615,
+    "country": "Germany",
+    "anonymity": "elite proxy"
   },
-  "45.61.125.210:6221": {
-    "type": "http",
-    "response_time": 1.628,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "191.96.202.148:6194": {
-    "type": "http",
-    "response_time": 0.821,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "38.154.204.103:8144": {
-    "type": "http",
-    "response_time": 0.85,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "198.46.137.155:6359": {
-    "type": "http",
-    "response_time": 0.831,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "107.173.93.65:6019": {
-    "type": "http",
-    "response_time": 0.7,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "161.123.5.81:5130": {
-    "type": "http",
-    "response_time": 0.699,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "136.0.105.161:6171": {
-    "type": "http",
-    "response_time": 0.648,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "198.37.99.82:5873": {
-    "type": "http",
-    "response_time": 0.719,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.94.246.213:8166": {
-    "type": "http",
-    "response_time": 0.724,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "38.154.191.253:8830": {
-    "type": "http",
-    "response_time": 0.679,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "206.206.69.164:6428": {
-    "type": "http",
-    "response_time": 0.769,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "173.0.9.56:5639": {
-    "type": "http",
-    "response_time": 0.682,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "142.111.58.181:6759": {
-    "type": "http",
-    "response_time": 0.921,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.229.125.34:5303": {
-    "type": "http",
-    "response_time": 0.71,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "206.206.119.44:5955": {
-    "type": "http",
-    "response_time": 0.852,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "166.88.58.29:5754": {
-    "type": "http",
-    "response_time": 0.863,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "104.164.49.77:7732": {
-    "type": "http",
-    "response_time": 0.948,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "185.216.105.226:6803": {
-    "type": "http",
-    "response_time": 0.767,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "136.0.186.213:6574": {
-    "type": "http",
-    "response_time": 0.638,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "206.206.124.6:6587": {
-    "type": "http",
-    "response_time": 0.85,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "104.253.77.161:5583": {
-    "type": "http",
-    "response_time": 0.785,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "191.101.181.176:6929": {
-    "type": "http",
-    "response_time": 0.803,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "82.27.240.248:7056": {
-    "type": "http",
-    "response_time": 0.66,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "31.59.18.182:6763": {
-    "type": "http",
-    "response_time": 0.829,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "173.211.69.240:6833": {
-    "type": "http",
-    "response_time": 0.898,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "154.6.8.123:5590": {
-    "type": "http",
-    "response_time": 0.591,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.27.93.210:5789": {
+  "185.11.134.227:8443": {
     "type": "http",
     "response_time": 0.814,
-    "country": "United States",
-    "anonymity": "transparent"
+    "country": "Russian Federation",
+    "anonymity": "elite proxy"
   },
-  "136.0.189.4:6731": {
+  "194.102.38.65:80": {
     "type": "http",
-    "response_time": 0.629,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 0.599,
+    "country": "United Kingdom",
+    "anonymity": "anonymous"
   },
-  "166.88.238.72:6052": {
+  "164.92.165.209:18080": {
     "type": "http",
-    "response_time": 0.781,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 1.527,
+    "country": "Germany",
+    "anonymity": "elite proxy"
   },
-  "216.74.118.7:6162": {
+  "190.58.248.86:80": {
     "type": "http",
-    "response_time": 0.817,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 1.235,
+    "country": "Trinidad and Tobago",
+    "anonymity": "anonymous"
   },
-  "206.206.69.25:6289": {
+  "203.99.240.182:80": {
     "type": "http",
-    "response_time": 0.752,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 1.335,
+    "country": "Japan",
+    "anonymity": "anonymous"
   },
-  "212.42.199.151:5890": {
+  "213.157.6.50:80": {
     "type": "http",
-    "response_time": 0.843,
-    "country": "United States",
-    "anonymity": "transparent"
+    "response_time": 0.767,
+    "country": "Germany",
+    "anonymity": "anonymous"
   },
-  "104.232.209.45:6003": {
+  "5.161.50.82:8118": {
     "type": "http",
-    "response_time": 0.797,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "104.239.104.167:6391": {
-    "type": "http",
-    "response_time": 0.746,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "147.124.198.59:5918": {
-    "type": "http",
-    "response_time": 0.661,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "206.232.103.231:6388": {
-    "type": "http",
-    "response_time": 0.639,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "38.154.233.72:5482": {
-    "type": "http",
-    "response_time": 0.661,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "50.114.15.55:6040": {
-    "type": "http",
-    "response_time": 0.764,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "166.88.195.18:5650": {
-    "type": "http",
-    "response_time": 0.768,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "199.180.8.75:5786": {
-    "type": "http",
-    "response_time": 0.735,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "216.74.115.22:6616": {
-    "type": "http",
-    "response_time": 0.963,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "173.239.219.141:6050": {
-    "type": "http",
-    "response_time": 0.965,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.236.182.8:5784": {
-    "type": "http",
-    "response_time": 0.929,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "212.42.199.170:5909": {
-    "type": "http",
-    "response_time": 0.96,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "166.88.224.151:6049": {
-    "type": "http",
-    "response_time": 0.862,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "23.94.246.221:8174": {
-    "type": "http",
-    "response_time": 0.915,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "216.10.27.246:6924": {
-    "type": "http",
-    "response_time": 0.953,
-    "country": "United States",
-    "anonymity": "transparent"
-  },
-  "52.34.243.150:8080": {
-    "type": "http",
-    "response_time": 0.671,
+    "response_time": 1.599,
     "country": "United States",
     "anonymity": "elite proxy"
   },
-  "32.223.6.94:80": {
+  "213.33.126.130:80": {
     "type": "http",
-    "response_time": 1.029,
-    "country": "United States",
+    "response_time": 0.766,
+    "country": "Austria",
     "anonymity": "anonymous"
   },
-  "91.223.32.106:1080": {
-    "type": "socks4",
-    "response_time": 3.751,
-    "country": "Russian Federation",
-    "anonymity": "Socks4"
+  "0.0.0.0:80": {
+    "type": "http",
+    "response_time": 0.027,
+    "country": "Unknown",
+    "anonymity": "anonymous"
   },
-  "94.181.33.149:40840": {
-    "type": "socks4",
-    "response_time": 3.273,
-    "country": "Russian Federation",
-    "anonymity": "Socks4"
+  "127.0.0.7:80": {
+    "type": "http",
+    "response_time": 0.025,
+    "country": "Unknown",
+    "anonymity": "anonymous"
   },
-  "103.42.202.190:1080": {
-    "type": "socks4",
-    "response_time": 2.813,
-    "country": "Bangladesh",
-    "anonymity": "Socks4"
-  },
-  "68.71.249.153:48606": {
-    "type": "socks4",
-    "response_time": 1.863,
+  "67.227.36.176:6218": {
+    "type": "http",
+    "response_time": 0.778,
     "country": "United States",
-    "anonymity": "Socks4"
+    "anonymity": "transparent"
   },
-  "209.141.46.220:9091": {
-    "type": "socks4",
-    "response_time": 2.229,
+  "104.232.209.153:6111": {
+    "type": "http",
+    "response_time": 0.786,
     "country": "United States",
-    "anonymity": "Socks4"
+    "anonymity": "transparent"
   },
-  "89.169.169.193:1080": {
-    "type": "socks4",
-    "response_time": 1.851,
-    "country": "Russian Federation",
-    "anonymity": "Socks4"
-  },
-  "169.239.236.201:10801": {
-    "type": "socks4",
-    "response_time": 4.542,
-    "country": "Nigeria",
-    "anonymity": "Socks4"
-  },
-  "198.8.94.174:39078": {
-    "type": "socks4",
-    "response_time": 3.389,
+  "154.29.235.196:6537": {
+    "type": "http",
+    "response_time": 0.615,
     "country": "United States",
-    "anonymity": "Socks4"
+    "anonymity": "transparent"
   },
-  "90.182.147.170:4145": {
-    "type": "socks4",
-    "response_time": 3.336,
-    "country": "Czech Republic",
-    "anonymity": "Socks4"
-  },
-  "37.52.13.164:5678": {
-    "type": "socks4",
-    "response_time": 4.542,
-    "country": "Ukraine",
-    "anonymity": "Socks4"
-  },
-  "85.105.194.113:4153": {
-    "type": "socks4",
-    "response_time": 3.523,
-    "country": "Turkey",
-    "anonymity": "Socks4"
-  },
-  "2.24.81.47:1080": {
-    "type": "socks4",
-    "response_time": 3.818,
+  "191.101.41.233:6305": {
+    "type": "http",
+    "response_time": 0.896,
     "country": "United States",
-    "anonymity": "Socks4"
+    "anonymity": "transparent"
   },
-  "95.182.78.2:5678": {
-    "type": "socks4",
-    "response_time": 3.847,
-    "country": "Ukraine",
-    "anonymity": "Socks4"
-  },
-  "199.102.105.242:4145": {
-    "type": "socks4",
-    "response_time": 1.076,
+  "23.27.208.229:5939": {
+    "type": "http",
+    "response_time": 0.634,
     "country": "United States",
-    "anonymity": "Socks4"
+    "anonymity": "transparent"
   },
-  "176.236.37.132:1080": {
-    "type": "socks4",
-    "response_time": 3.973,
-    "country": "Turkey",
-    "anonymity": "Socks4"
+  "89.249.195.253:7008": {
+    "type": "http",
+    "response_time": 0.819,
+    "country": "United States",
+    "anonymity": "transparent"
   },
-  "183.88.240.139:4153": {
-    "type": "socks4",
-    "response_time": 1.657,
-    "country": "Thailand",
-    "anonymity": "Socks4"
+  "45.135.139.159:6462": {
+    "type": "http",
+    "response_time": 0.442,
+    "country": "United Kingdom",
+    "anonymity": "transparent"
+  },
+  "172.245.158.226:6179": {
+    "type": "http",
+    "response_time": 0.72,
+    "country": "United States",
+    "anonymity": "transparent"
   }
 }
