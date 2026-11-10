@@ -1,134 +1,68 @@
 {
-  "102.244.78.61:8084": {
+  "113.204.79.230:9091": {
     "type": "http",
-    "response_time": 1.284,
+    "response_time": 0.855,
+    "country": "CN",
+    "anonymity": "elite"
+  },
+  "190.12.150.244:999": {
+    "type": "http",
+    "response_time": 2.576,
+    "country": "EC",
+    "anonymity": "transparent"
+  },
+  "102.244.78.61:8082": {
+    "type": "http",
+    "response_time": 1.458,
     "country": "CM",
+    "anonymity": "elite"
+  },
+  "114.34.145.135:8080": {
+    "type": "http",
+    "response_time": 1.282,
+    "country": "TW",
+    "anonymity": "transparent"
+  },
+  "101.51.120.209:8080": {
+    "type": "http",
+    "response_time": 1.407,
+    "country": "TH",
+    "anonymity": "transparent"
+  },
+  "110.38.233.122:8080": {
+    "type": "http",
+    "response_time": 3.661,
+    "country": "PK",
+    "anonymity": "elite"
+  },
+  "111.95.161.133:8080": {
+    "type": "http",
+    "response_time": 5.817,
+    "country": "ID",
+    "anonymity": "transparent"
+  },
+  "45.43.60.220:8080": {
+    "type": "http",
+    "response_time": 2.328,
+    "country": "JP",
     "anonymity": "elite"
   },
   "116.196.150.180:17981": {
     "type": "http",
-    "response_time": 0.441,
+    "response_time": 1.014,
     "country": "CN",
     "anonymity": "elite"
   },
-  "102.244.78.61:8083": {
+  "177.234.211.31:999": {
     "type": "http",
-    "response_time": 1.246,
-    "country": "CM",
-    "anonymity": "elite"
-  },
-  "102.244.78.61:8086": {
-    "type": "http",
-    "response_time": 1.463,
-    "country": "CM",
-    "anonymity": "elite"
-  },
-  "172.239.170.24:3128": {
-    "type": "http",
-    "response_time": 4.76,
-    "country": "US",
-    "anonymity": "anonymous"
-  },
-  "45.229.16.33:999": {
-    "type": "http",
-    "response_time": 2.829,
+    "response_time": 2.382,
     "country": "EC",
     "anonymity": "transparent"
   },
-  "187.251.224.167:80": {
-    "type": "http",
-    "response_time": 1.931,
-    "country": "MX",
-    "anonymity": "transparent"
-  },
-  "102.244.78.61:8085": {
-    "type": "http",
-    "response_time": 1.401,
-    "country": "CM",
-    "anonymity": "elite"
-  },
-  "45.43.60.220:8080": {
-    "type": "http",
-    "response_time": 3.031,
-    "country": "JP",
-    "anonymity": "elite"
-  },
-  "152.53.81.29:8888": {
-    "type": "http",
-    "response_time": 1.74,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "102.244.78.61:8089": {
-    "type": "http",
-    "response_time": 1.365,
-    "country": "CM",
-    "anonymity": "elite"
-  },
-  "179.60.189.81:999": {
-    "type": "http",
-    "response_time": 1.629,
-    "country": "EC",
-    "anonymity": "transparent"
-  },
-  "179.1.213.232:999": {
-    "type": "http",
-    "response_time": 4.891,
-    "country": "CO",
-    "anonymity": "transparent"
-  },
-  "34.43.46.91:80": {
-    "type": "http",
-    "response_time": 3.992,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "177.234.217.235:999": {
-    "type": "http",
-    "response_time": 4.898,
-    "country": "EC",
-    "anonymity": "transparent"
-  },
-  "45.232.210.177:999": {
-    "type": "http",
-    "response_time": 4.069,
-    "country": "CL",
-    "anonymity": "transparent"
-  },
-  "1.20.101.31:80": {
-    "type": "http",
-    "response_time": 4.067,
-    "country": "TH",
-    "anonymity": "transparent"
-  },
-  "113.204.79.230:9091": {
-    "type": "http",
-    "response_time": 0.928,
-    "country": "CN",
-    "anonymity": "elite"
-  },
-  "75.109.189.86:8080": {
-    "type": "http",
-    "response_time": 2.405,
-    "country": "US",
-    "anonymity": "transparent"
-  },
-  "74.119.147.209:4145": {
+  "189.202.204.53:1080": {
     "type": "socks4",
-    "response_time": 1.61,
-    "country": "US",
-    "anonymity": "elite"
-  },
-  "176.62.237.51:1080": {
-    "type": "socks5",
-    "response_time": 3.607,
-    "country": "CZ",
-    "anonymity": "elite"
-  },
-  "121.46.226.221:10808": {
-    "type": "socks5",
-    "response_time": 2.631,
-    "country": "CN",
+    "response_time": 3.852,
+    "country": "MX",
     "anonymity": "elite"
   }
 }
