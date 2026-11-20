@@ -16,6 +16,7 @@
 
 - [How it Works](#-how-it-works)
 - [Download Proxies](#-download-proxies)
+- [Test Proxies](#-test-proxies)
 - [File Formats](#-file-formats)
 - [REST API](#-rest-api)
 - [Usage Examples](#-usage-examples)
@@ -84,6 +85,46 @@ https://raw.githubusercontent.com/Casper-Tech-ke/casper-free-proxies/main/files/
 
 ---
 
+## 🧪 Test Proxies
+
+The lists in this repo are a **snapshot** — free proxies die fast, and some in the last 30-minute push may already be dead. Before you use them, test them live and pick the working ones:
+
+### Test the whole published set
+```
+GET https://proxies.xcasper.space/test
+```
+Re-checks the published proxies live and returns **only the working ones, fastest first** — with `tested`, `alive`, `dead` counts and each proxy's `latency_ms`. Optional filters: `?type=http|socks4|socks5` and `?limit=N` (e.g. `/test?limit=10&type=http`). A full run takes about 40 seconds. If a test is already running you get a `409` — try again in a minute.
+
+### Test one proxy
+```
+GET https://proxies.xcasper.space/test-one?proxy=45.131.7.234:80&type=http
+```
+Returns a live `alive` / dead verdict with `latency_ms` for a single proxy. You can also pass `?host=IP&port=PORT&type=http`.
+
+```bash
+# Check one proxy before using it
+curl "https://proxies.xcasper.space/test-one?proxy=45.131.7.234:80&type=http"
+
+# Get the 10 fastest working HTTP proxies right now
+curl "https://proxies.xcasper.space/test?limit=10&type=http"
+```
+
+Example response (`GET /test-one`):
+```json
+{
+  "provider": "CASPER TECH KENYA",
+  "proxy": "45.131.7.234:80",
+  "type": "http",
+  "alive": true,
+  "response_time": 0.07,
+  "latency_ms": 70
+}
+```
+
+You can also test right on the site — [proxies.xcasper.space#test](https://proxies.xcasper.space#test) has a live tester built in.
+
+---
+
 ## 📄 File Formats
 
 ### `http.json` / `socks4.json` / `socks5.json`
@@ -145,6 +186,8 @@ https://proxies.xcasper.space
 | `GET /metadata` | Full metadata: speed, country, type      |
 | `GET /stats`    | Counts by proxy type                     |
 | `GET /timestamp`| Last update time (UTC)                   |
+| `GET /test`     | Live-test the published set — only the working ones, fastest first |
+| `GET /test-one` | Live-test one proxy — `?host=IP&port=PORT&type=http` (or `?proxy=IP:PORT`) |
 
 ### Example Response (`GET /stats`)
 ```json
